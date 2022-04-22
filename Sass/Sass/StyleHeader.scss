@@ -1,0 +1,14 @@
+header {
+    margin: 0px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color:rgb(243 244 246);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    z-index: 7;
+    img {
+      width: 200px;
+    }
+}

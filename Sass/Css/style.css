@@ -1,0 +1,69 @@
+/* style.scss */
+header {
+  margin: 0px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: rgb(243, 244, 246);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  z-index: 7;
+}
+header img {
+  width: 200px;
+}
+
+body {
+  margin: 0px;
+}
+
+.localisation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(219, 219, 219);
+  z-index: 1;
+}
+.localisation p {
+  margin-left: 1rem;
+  font-weight: 700;
+}
+
+.reserver {
+  background-color: rgb(243, 244, 246);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+}
+.reserver .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+}
+.reserver .container h2 {
+  font-weight: 700;
+}
+.reserver .container p {
+  color: rgb(107, 114, 128);
+}
+.reserver .container button {
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(180deg, rgb(238, 174, 202) 0%, rgb(172, 67, 254) 100%);
+  border-radius: 9999px;
+  font-weight: 700;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+.reserver .container button p {
+  color: rgb(255, 255, 255);
+}
+
+/*# sourceMappingURL=style.css.map */
